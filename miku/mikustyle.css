@@ -1,0 +1,124 @@
+
+
+body {
+
+    background: #6600ff;
+    color: #ffc0cb;
+    text-align: center;
+
+}
+
+.main{
+    position: absolute;
+    width:100%;
+    /*top: 150px;*/
+}
+
+a:link { /*regular link*/
+    color: #ffc0cb;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #66ff00;
+  }
+
+  a:hover {
+    /*background-color: yellow;*/
+    font-weight: bold;
+  }
+
+  .button {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    min-height:20px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline; 
+    margin-bottom: 5px;
+    margin-top: 10px;
+  
+  }
+
+  .imgcolumn {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 20%;
+    /*height:20%;*/
+    padding: 10px;
+    margin-left: 10px; 
+    }
+    
+  .center {
+    
+    float: center;
+    width: 25%;
+    margin-right: 46%;
+    margin-left: 36.5%;
+    margin-bottom: 10px;
+    /*background: #740c0c;
+    color: yellow;*/
+  }
+
+    .columntwo {
+        position: relative;
+      float: left;
+      width: 65%;
+      padding: 10px;
+      min-height: 50px; 
+      height: 100%;    
+      max-height: 264px; 
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      overflow: auto;
+    }
+
+    .centerbox {
+      position: relative;
+      float: center;
+      margin-left: auto;
+      margin-right: auto;
+    width: 65%;
+    padding: 10px;
+    min-height: 50px; 
+    height: 100%;    
+    max-height: 264px; 
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+  }
+
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.pagedoll {
+    background: #ff000000;
+    position: fixed; 
+    width: 17%;
+    right: 10px; 
+    bottom: 10px; 
+    z-index: 100;
+}
+
+.top {
+  right: 10px; 
+    top: 10px; 
+}
+
+#doll{
+  /*background-image: url(/icon.png);*/
+}
+
+#lillia:hover {
+  content: url('https://f2.toyhou.se/file/f2-toyhou-se/images/78344491_zN0LNNnQ1y6uklW.png');
+  /*background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/78344491_zN0LNNnQ1y6uklW.png);*/
+}

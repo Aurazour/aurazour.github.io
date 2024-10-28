@@ -1,0 +1,137 @@
+
+
+body {
+
+    background: #490f66;
+    /*background-image: url("url in quotes"); 
+    background-repeat: no-repeat; 
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;*/
+    color: #e1a5af;
+    text-align: center;
+
+}
+body h2 {
+  color: #ffc0cb;
+}
+
+a:link { /*regular link*/
+    color: #ffc0cb;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #11e8b2;
+  }
+
+  a:hover {
+    /*background-color: yellow;*/
+    font-weight: bold;
+  }
+
+  .button {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    min-height:20px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline; 
+    margin-bottom: 5px;
+    margin-top: 10px;
+    /*border-radius: 15px;*/
+  
+  }
+
+  .imgcolumn {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 20%;
+    /*height:20%;*/
+    padding: 10px;
+    margin-left: 10px; 
+    }
+
+    .columntwo {
+        position: relative;
+      float: left;
+      width: 65%;
+      padding: 10px;
+      min-height: 50px; 
+      height: 100%;    
+      max-height: 264px; 
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      overflow: auto;
+    }
+
+  .centerbox {
+    position: relative;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding: 10px;
+    min-height: 50px; 
+    height: 100%;    
+    max-height: 264px; 
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+  }
+
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.pagedoll {
+    background: #ff000000;
+    position: fixed; 
+    width: 17%;
+    right: 10px; 
+    bottom: 10px; 
+    z-index: 100;
+}
+
+.top {
+  right: 10px; 
+    top: 10px; 
+}
+
+#lillia:hover {
+  content: url(/asset2Hover.png);
+}
+
+#lillia:active {
+  content: url(/asset2Click.png);
+  
+}
+/*#3a1078*/
+
+.header{
+  position: fixed;
+  background: #3a1078;
+  width:100%;
+  height: 110px;       
+  z-index: 100;        
+  text-align: center;
+  vertical-align: middle;
+  left:-1px;
+  top:-1px;
+  /*line-height: 100px;*/
+}
+
+.main{
+  position: absolute;
+  width:100%;
+  top: 120px;
+  left:-1px;
+}
