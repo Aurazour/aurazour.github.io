@@ -1,3 +1,3 @@
-# aurazour.github.io
+# blinks-eyeris.github.io
 
 Basic website
